@@ -48,7 +48,7 @@ export default {
     }
 </style>
 <style lang="scss">
-    // 最菜单栏和el-main部分作为一个整体进行绝对定位，目的是为了设置高度撑满浏览器
+    // 将菜单栏和el-main部分作为一个整体进行绝对定位，目的是为了设置高度撑满浏览器
     // 这样当el-mian部分内容溢出时，只会在el-main部分出现滚动条，且滚动鼠标时只有el-main部分会滚动
     #inside-container{
         position: absolute;
