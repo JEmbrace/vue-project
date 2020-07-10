@@ -15,6 +15,7 @@ export default {
 html,body{
   padding: 0px;
   margin: 0px;
+  height: 100%;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -22,5 +23,6 @@ html,body{
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
   color: #2c3e50;
+  height: 100%;
 }
 </style>

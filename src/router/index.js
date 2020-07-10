@@ -4,6 +4,9 @@ import Router from "vue-router";
 // 菜单
 import MenuIndex from '@/components/menu/menuIndex.vue';
 
+// 登录页
+import Login from '@/components/login/login.vue';
+
 // 首页
 import Index from '@/components/homePage/index.vue';
 
@@ -34,6 +37,18 @@ Vue.use(Router)
 
 
 let routes = [
+    // 登录页
+    {   
+        path: '/',
+        name: 'login',
+        component: Login,
+        meta: {
+            title: '登录',    // 菜单标题
+            icon: 'el-icon-s-home',  // 图标
+            hasSubMenu: false, // 是否包含子菜单，false 没有子菜单；true 有子菜单
+
+        },
+    },
     // 首页(仪表盘、快速入口)
     {
         path: '/index',

@@ -23,7 +23,7 @@ export default {
     components: {LeftMenu, TopMenu},
     data() {
         return {
-            logoPath:  require("../../assets/images/logo1.png"),
+            logoPath:  require("../../assets/images/logo.png"),
             name: '员工管理系统'
         }
     }
